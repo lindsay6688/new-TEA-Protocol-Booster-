@@ -1,1 +1,27 @@
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+# 首页路由
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+# Stake页面路由
+@app.route('/stake')
+def stake():
+    return render_template('stake.html')
+
+# 漏洞报告页面路由
+@app.route('/report_vulnerability')
+def report_vulnerability():
+    return render_template('report_vulnerability.html')
+
+# Governance投票页面路由
+@app.route('/governance')
+def governance():
+    return render_template('governance.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
