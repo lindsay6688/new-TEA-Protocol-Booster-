@@ -1,1 +1,19 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEA Protocol Booster</title>
+</head>
+<body>
+    <h1>Welcome to TEA Protocol Booster!</h1>
+    <p>Choose an option:</p>
+    <ul>
+        <li><a href="/stake">Stake TEA Tokens</a></li>
+        <li><a href="/report_vulnerability">Report Vulnerability</a></li>
+        <li><a href="/governance">Governance Voting</a></li>
+    </ul>
+</body>
+</html>
 
